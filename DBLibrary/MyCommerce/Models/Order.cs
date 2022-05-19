@@ -1,4 +1,4 @@
-﻿namespace DBLibrary.Entities
+﻿namespace MyCommerce.Models
 {
     public class Order
     {

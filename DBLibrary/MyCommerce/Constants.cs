@@ -1,4 +1,4 @@
-﻿namespace DBLibrary
+﻿namespace MyCommerce
 {
     internal class Constants
     {

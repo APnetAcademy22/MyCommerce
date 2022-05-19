@@ -1,7 +1,7 @@
-﻿using DBLibrary.Entities;
+﻿using MyCommerce.Models;
 using System.Data.SqlClient;
 
-namespace DBLibrary.Retrievers
+namespace MyCommerce.Retrievers
 {
     public class ProductRetriever
     {

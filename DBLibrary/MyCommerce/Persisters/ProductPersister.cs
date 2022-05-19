@@ -1,7 +1,7 @@
-﻿using DBLibrary.Entities;
+﻿using MyCommerce.Models;
 using System.Data.SqlClient;
 
-namespace DBLibrary.Persisters
+namespace MyCommerce.Persisters
 {
     public class ProductPersister : Persister<Product>
     {

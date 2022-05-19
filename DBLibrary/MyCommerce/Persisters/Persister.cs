@@ -1,4 +1,4 @@
-﻿namespace DBLibrary.Persisters
+﻿namespace MyCommerce.Persisters
 {
     public interface Persister<T>
     {

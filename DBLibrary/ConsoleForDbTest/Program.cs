@@ -1,6 +1,5 @@
 ﻿
 using DBLibrary.Entities;
-using DBLibrary.Persisters;
 using DBLibrary.Retrievers;
 
 Customer c = new Customer()
