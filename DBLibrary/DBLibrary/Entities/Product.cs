@@ -8,10 +8,10 @@ namespace DBLibrary.Entities
 {
     public class Product
     {
-        string C8 { get; set; }
-        string Title { get; set; }
-        string Description { get; set; }
-        string ImageUrl { get; set; }
+        public string C8 { get; set; }
+        public string Title { get; set; }
+        public string Description { get; set; }
+        public string ImageUrl { get; set; }
 
     }
 }

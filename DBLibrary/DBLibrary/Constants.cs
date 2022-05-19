@@ -9,7 +9,7 @@ namespace DBLibrary
     internal class Constants
     {
         public const string SqlConnectionString = "data source=ACADEMYNETPD07\\SQLEXPRESS;" +
-                            "database = Gestionale;" +
+                            "database = MyCommerce;" +
                             "Integrated Security = true;" +
                             "Connection timeout = 3600;";
     }

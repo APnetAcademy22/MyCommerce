@@ -8,10 +8,10 @@ namespace DBLibrary.Entities
 {
     public class Customer
     {
-        int IdCustomer { get; set; }
-        string Email { get; set; }
-        string Name { get; set; }
-        string Surname { get; set; }
-        DateTime BirthDate { get; set; }
+        public int IdCustomer { get; set; }
+        public string Email { get; set; }
+        public string Name { get; set; }
+        public string Surname { get; set; }
+        public DateTime BirthDate { get; set; }
     }
 }

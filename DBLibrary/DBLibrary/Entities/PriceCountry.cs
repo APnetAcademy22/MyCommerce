@@ -8,9 +8,9 @@ namespace DBLibrary.Entities
 {
     public class PriceCountry
     {
-        string C8 { get; set; }
-        string Country { get; set; }
-        string Currency { get; set; }
-        decimal Price { get; set; }
+        public string C8 { get; set; }
+        public string Country { get; set; }
+        public string Currency { get; set; }
+        public decimal Price { get; set; }
     }
 }
