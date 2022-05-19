@@ -26,7 +26,13 @@ use mycommerce
 --	C8			char(8) NOT NULL REFERENCES Products,
 --	Date		DATETIME NOT NULL,
 --	Price		decimal(12,2) NOT NULL );
+
+
+
 select*from customers;
 select*from Products;
 select*from orders;
 select*from pricelists;
+
+SELECT IdCustomer, Email, Name, Surname, BirthDate 
+FROM Customers WHERE IdCustomer = 2 ;

@@ -5,14 +5,14 @@ using System.Text;
 using System.Threading.Tasks;
 using DBLibrary.Entities;
 using DBLibrary.Persisters;
-//using DBLibrary.Retrievers;
+using DBLibrary.Retrievers;
 using System.Data.SqlClient;
 
 namespace DBLibrary.Persisters
 {
     public class CustomerPersister : Persister<Customer>
     {
-        public void Persist(Customer customer)
+        public void Persist(Customer customer) //TODO implementare che se esisete già lo crea nuovo altrimenti lo aggiorna
         {
             var query = @"INSERT INTO Customers(Email,Name,Surname,BirthDate) 
                     OUTPUT inserted.IdCustomer 
